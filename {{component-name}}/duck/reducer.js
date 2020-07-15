@@ -1,8 +1,8 @@
-import { ACTION } from './type';
+import { {{REDUX_ACTION}} } from './type';
 
 function reducer(state = 0, action) {
   switch (action.type) {
-    case ACTION:
+    case {{REDUX_ACTION}}:
       return state;
     default:
       return state;

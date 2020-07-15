@@ -1,1 +1,1 @@
-export const ACTION = 'ACTION';
+export const {{REDUX_ACTION}} = '{{REDUX_ACTION}}';

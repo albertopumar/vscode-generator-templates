@@ -1,5 +1,5 @@
-import { ACTION } from './type';
+import { {{REDUX_ACTION}} } from './type';
 
-const action = () => ({ type: ACTION });
+const action = () => ({ type: {{REDUX_ACTION}} });
 
 export default { action };
